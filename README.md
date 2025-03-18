@@ -55,7 +55,7 @@ The platform follows a **microservices and multi-agent** architecture, where eac
 
 ## **📌 Service Breakdown & Cloud Integration**
 
-### **1️ Portal (`/portal`) – AI-Powered Learning Interface**  
+### **1️. Portal (`/portal`) – AI-Powered Learning Interface**  
 📍 **Hosted on:** Cloud Run  
 📍 **AI Capabilities:** Gemini models for real-time Q&A and content recommendations  
 📍 **Features:**
@@ -64,28 +64,28 @@ The platform follows a **microservices and multi-agent** architecture, where eac
 - Auto-generated teaching plans  
 - Secure authentication via Firebase  
 
-### **2️ Planner (`/planner`) – Intelligent Curriculum AI**  
+### **2️. Planner (`/planner`) – Intelligent Curriculum AI**  
 📍 **Hosted on:** Compute Engine + Vertex AI  
 📍 **Features:**
 - AI-powered curriculum generation & personalization  
 - Book and resource recommendations via AI search models  
 - Automated course structuring using Google Cloud SQL  
 
-### **3️ Courses (`/courses`) – Cloud-Native Course Management**  
+### **3️. Courses (`/courses`) – Cloud-Native Course Management**  
 📍 **Hosted on:** Cloud Run + Cloud Storage  
 📍 **Features:**
 - Stores course materials in Cloud Storage  
 - Organizes and retrieves resources using Firestore DB  
 - Uses AI for metadata tagging and smart search  
 
-### **4️ Assignment (`/assignment`) – AI-Driven Grading & Feedback**  
+### **4️. Assignment (`/assignment`) – AI-Driven Grading & Feedback**  
 📍 **Hosted on:** Cloud Functions + Vertex AI  
 📍 **Features:**
 - AI-based grading via Gemini & DeepSeek  
 - Student submission tracking with BigQuery  
 - Real-time feedback generation  
 
-### **5️ Book Provider (`/bookprovider`) – AI-Powered Reading Suggestions**  
+### **5️. Book Provider (`/bookprovider`) – AI-Powered Reading Suggestions**  
 📍 **Hosted on:** Cloud Run + AI Recommendations API  
 📍 **Features:**
 - AI-driven book recommendations  
@@ -97,23 +97,23 @@ The platform follows a **microservices and multi-agent** architecture, where eac
 
 ## **🔧 Setup & Deployment**
 
-### **1️⃣ Prerequisites**
+### **1️. Prerequisites**
 - Google Cloud Platform (GCP) account
 - Python 3.9+
 - Docker & Cloud SDK installed
 
-### **2️⃣ Clone the Repository**
+### **2️. Clone the Repository**
 ```sh
  git clone https://github.com/yourusername/study-buddy.git
  cd study-buddy
 ```
 
-### **3️⃣ Install Dependencies**
+### **3️. Install Dependencies**
 ```sh
 pip install -r requirements.txt
 ```
 
-### **4️⃣ Deploy Services to Google Cloud**
+### **4️. Deploy Services to Google Cloud**
 ```sh
 # Deploy Portal
  gcloud run deploy study-buddy-portal --source=portal
@@ -125,7 +125,7 @@ pip install -r requirements.txt
  gcloud functions deploy study-buddy-assignments --runtime python39 --trigger-http
 ```
 
-### **5️⃣ Access the Platform**
+### **5️. Access the Platform**
 After deployment, access the **Study-Buddy** UI via the Cloud Run service URL or set up a custom domain.
 
 ```sh

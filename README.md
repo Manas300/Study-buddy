@@ -6,6 +6,9 @@
 
 ---
 
+## Video Demo
+[Watch the Demo](https://youtu.be/N6aqf_-K5qI)
+
 ## **🚀 Key Features**
 
 ✅ **AI-Powered Learning Portal** – Interactive quizzes, auto-graded assignments, and AI-assisted tutoring with Gemini models.  

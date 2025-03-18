@@ -93,6 +93,7 @@ The platform follows a **microservices and multi-agent** architecture, where eac
 - Personalized reading suggestions via Vertex AI  
 
 ---
+![image](https://github.com/user-attachments/assets/04e1dd28-5dca-4a4a-9cb4-b4d14d1c90fa)
 
 ## **🔧 Setup & Deployment**
 

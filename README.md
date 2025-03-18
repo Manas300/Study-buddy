@@ -7,7 +7,7 @@
 ---
 
 ## Video Demo
-[![image](https://github.com/user-attachments/assets/6c4d6dca-4750-4758-8e46-b557fb9d6ec6)](https://youtu.be/N6aqf_-K5qI)
+[![image](![image](https://github.com/user-attachments/assets/e9b74bc8-8e5d-437f-b23a-54a3127d0806))](https://youtu.be/N6aqf_-K5qI)
 
 
 ## **🚀 Key Features**

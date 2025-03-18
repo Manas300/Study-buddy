@@ -1,6 +1,6 @@
 # **Study-Buddy: AI-Powered Multi-Agent Learning System on GCP**
 
-![Google Cloud AI](https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.png)
+
 
 **Study-Buddy** is a cloud-native, AI-driven educational platform that leverages **multi-agent systems** to provide intelligent tutoring, curriculum planning, and automated assessment capabilities. Built on **Google Cloud Platform (GCP)**, it integrates AI-powered services with scalable cloud infrastructure to create seamless and intelligent learning experiences.
 

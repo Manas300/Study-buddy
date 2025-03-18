@@ -55,7 +55,7 @@ The platform follows a **microservices and multi-agent** architecture, where eac
 
 ## **📌 Service Breakdown & Cloud Integration**
 
-### **1️⃣ Portal (`/portal`) – AI-Powered Learning Interface**  
+### **1️ Portal (`/portal`) – AI-Powered Learning Interface**  
 📍 **Hosted on:** Cloud Run  
 📍 **AI Capabilities:** Gemini models for real-time Q&A and content recommendations  
 📍 **Features:**
@@ -64,28 +64,28 @@ The platform follows a **microservices and multi-agent** architecture, where eac
 - Auto-generated teaching plans  
 - Secure authentication via Firebase  
 
-### **2️⃣ Planner (`/planner`) – Intelligent Curriculum AI**  
+### **2️ Planner (`/planner`) – Intelligent Curriculum AI**  
 📍 **Hosted on:** Compute Engine + Vertex AI  
 📍 **Features:**
 - AI-powered curriculum generation & personalization  
 - Book and resource recommendations via AI search models  
 - Automated course structuring using Google Cloud SQL  
 
-### **3️⃣ Courses (`/courses`) – Cloud-Native Course Management**  
+### **3️ Courses (`/courses`) – Cloud-Native Course Management**  
 📍 **Hosted on:** Cloud Run + Cloud Storage  
 📍 **Features:**
 - Stores course materials in Cloud Storage  
 - Organizes and retrieves resources using Firestore DB  
 - Uses AI for metadata tagging and smart search  
 
-### **4️⃣ Assignment (`/assignment`) – AI-Driven Grading & Feedback**  
+### **4️ Assignment (`/assignment`) – AI-Driven Grading & Feedback**  
 📍 **Hosted on:** Cloud Functions + Vertex AI  
 📍 **Features:**
 - AI-based grading via Gemini & DeepSeek  
 - Student submission tracking with BigQuery  
 - Real-time feedback generation  
 
-### **5️⃣ Book Provider (`/bookprovider`) – AI-Powered Reading Suggestions**  
+### **5️ Book Provider (`/bookprovider`) – AI-Powered Reading Suggestions**  
 📍 **Hosted on:** Cloud Run + AI Recommendations API  
 📍 **Features:**
 - AI-driven book recommendations  
